@@ -6,6 +6,8 @@ https://indico.frib.msu.edu/event/75/
 
 Forum space: https://forum.ascsn.net/t/2024-frib-ta-summer-school/270/5
 
+Google drive: https://drive.google.com/drive/folders/10rsMMrweOMtLwG3nucj2wzjY40cAGz4W?usp=drive_link
+
 Organizers and main teachers:
 *  Erin Good (PNNL)
 *  Chloë Hebborn (MSU)

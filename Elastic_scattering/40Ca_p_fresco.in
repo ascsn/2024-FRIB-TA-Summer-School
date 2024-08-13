@@ -1,0 +1,21 @@
+p + 40Ca elastic
+NAMELIST
+
+ &FRESCO  hcm=0.0100 rmatch=60.000 jtmin=0.0 jtmax=35.0
+     thmin=0.00 thmax=180.00 thinc=0.500 xstabl= 1
+     elab(1)=30  smats=2 /
+
+ &PARTITION namep='p' massp=  1.0000 zp=1
+            namet='40Ca   ' masst=40.0000 zt=20 nex=1 qval=  0/
+
+ &STATES jp=0.5 bandp=1 ep=0.0000  cpot=1 jt=0.0 bandt=1 et= 0.0000/
+
+ &partition /
+
+ &pot kp=1 type=0 at=40 rc=1.2 /
+ &pot kp=1 type=1 shape=0  v=47.2 vr0=1.172 a=0.703 w=1.78 wr0=1.288 aw=0.653/
+ &pot kp=1 type=2 shape=0  wd=4.83 wdr0=1.288 awd=0.653/
+ &pot /
+
+ &overlap /
+ &coupling /
